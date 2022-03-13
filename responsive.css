@@ -1,0 +1,38 @@
+                        @media screen and (max-width:620px) {
+                            nav {
+                                flex-direction: column;
+                                background-color: var(--main-bg-color);
+                            }
+                            .logo {
+                                justify-content: center;
+                                padding: 1.5vh 0vh;
+                            }
+                            nav ul {
+                                background-color: var(--main-bg-color);
+                                justify-content: center;
+                            }
+                            .search input {
+                                justify-content: center;
+                                padding: 0vh;
+                                padding-left: 0vh;
+                                padding-left: 4px;
+                                width: 195px;
+                                margin: 2vw 3vw;
+                                height: 45px;
+                            }
+                        }
+                        
+                        @media screen and (max-width:980px) {
+                            .slider img {
+                                width: 92 vw;
+                            }
+                        }
+                        
+                        @media screen and (max-width:1235px) {
+                            .for-flex {
+                                flex-wrap: wrap;
+                                flex-grow: 1;
+                                width: 100%;
+                                justify-content: space-evenly;
+                            }
+                        }
